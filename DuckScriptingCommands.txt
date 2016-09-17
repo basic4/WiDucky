@@ -1,0 +1,84 @@
+WiDucky Scripting Commands
+-----------------------------------------------
+
+DELAY	:		Halts the script and waits a given number of milliseconds before resuming.
+			(eg. 'DELAY 500' - waits 0.5 secs)
+MAP:			Maps special keycodes to a given region (currently only US and UK)
+			(eg. 'MAP UK' - Sets keycodes for a UK keyboard)
+
+STRING:			The STRING command sends a stream of keystrokes to the WiDucky.
+			(eg. 'STRING cmd.exe'  - Types 'cmd.exe' on the target.)
+
+ENTER:			Sends the Enter or Return keycode to the target.
+
+COMD:			Sends a full stream of keystrokes to the target and a ENTER at the end.
+			(eg. 'COMD notepad.exe': Types 'notepad.exe and then hits the Enter key)
+
+KEY:			Used to emulate Windows ALT key combinations such as numeric keypad codes
+			(eg. 'KEY 0124' - Windows pipe character '|')
+
+GUI:			Emulates the Windows key (LEFT)
+
+DEL / ALT / CTRL		As normal, only used to combinations
+			(eg  'CTRL + ALT + DEL'  - logout 
+			  or 'ALT + f' - open file menu)
+
+TAB			The tab key
+
+SHIFT / SHIFTR		The two SHIFT keys
+
+ALT / ALTGR		The two ALT keys
+
+F1 - F12			Function Keys
+
+DWN,UP,LFT,RHT		Arrow Keys
+
+ESCAPE			The Esc Key
+
+
+An Example Script 1: Open command prompt, then notepad and type a sentense, wait then shut everything done.
+
+
+DELAY 1000
+MAP UK
+GUI
+DELAY 750
+STRING cmd.exe
+DELAY 300
+ENTER
+DELAY 1500
+COMD notepad.exe
+DELAY 2500
+STRING This is just a test of the WiDucky typing. Bye.
+DELAY 6000
+ALT + f
+DELAY 250
+STRING x
+DELAY 400
+TAB
+DELAY 100
+ENTER
+DELAY 600
+COMD exit
+
+
+
+Example Script 2:  Log the user out of Windows 7/8
+
+MAP UK
+CTRL + ALT + DEL
+DELAY 200
+DWN
+DELAY 100
+DWN 
+DELAY 100
+ENTER
+
+
+
+
+
+
+
+
+
