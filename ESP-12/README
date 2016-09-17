@@ -1,3 +1,8 @@
+#The non Cactus Micro version of the WiDucky project.
+
+This uses a standard Arduino ProMicro and a ESP8266-12F to provide a WiFi Enabled USB Rubby Ducky.
+(Remember to reference the circuit schematic, as the ESP and the Arduino work on difference voltages!) 
+
 This is the files for the non-Cactus Micro based WiDucky. A number of steps are required:
 1.  Download the NODEMCU Flasher (http://www.xess.com/blog/esp8266-reflash/)
 2.  Flash the 'ESP8266.ino.generic.bin' into a fresh ESP12E/F and verify using NODEMCU flasher
@@ -5,3 +10,6 @@ This is the files for the non-Cactus Micro based WiDucky. A number of steps are 
 4.  Wire up the devices as per the schematic
 5.  An access point should then be visible 'WiDucky', connect with password 'quackings' 
 6.  Select one of the 'Controller' apps in the project and run a ducky test script.
+
+
+
