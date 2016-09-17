@@ -1,0 +1,20 @@
+DELAY 1000
+MAP UK
+GUI
+DELAY 700
+STRING notepad.exe
+DELAY 550
+ENTER
+DELAY 1000
+COMD This is a simple test to show the duck can type and start exe files.
+DELAY 6000
+ALT + f
+STRING x
+DELAY 500
+TAB
+ENTER
+
+
+
+
+
