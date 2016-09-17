@@ -1,6 +1,6 @@
 This command batch file allows feedback from the target Windows machine to be sent.
-The Widucky types 'remrec4.bat dir/w, and the batch file executes the the dir/w command 
-and sends the output of the command to the widucky serial port. 
-The output is then returned via wifi to the controller application and displayed.
+If the Widucky types 'remrec4.bat dir/w', the batch file executes the the 'dir/w' command 
+and sends the output of the command to the WiDucky serial port. 
+The output is then returned via wifi to the controller application and displayed remotely.
 (*This requires the Arduino drivers to be loaded on the target machine.)
 
