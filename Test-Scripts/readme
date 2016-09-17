@@ -1,0 +1,2 @@
+Here are a number of test scripts for the WiDucky. The scripting language is based on that of the HAK5 Rubber Ducky, but with afew additions.
+Currently, the controller applications only understand US and UK keyboard layouts. Although this could be expanded.
