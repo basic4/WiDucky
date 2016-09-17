@@ -1,0 +1,5 @@
+This is the prototype Android application for connecting to and controlling the WiDucky.
+It was written to test the concept of a remote Rubber Ducky and has code for both WiFi and Bluetooth
+connection to the device as the first prototype connected to the ducky module via bluetooth.
+
+
