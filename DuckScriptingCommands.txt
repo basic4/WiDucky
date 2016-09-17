@@ -19,7 +19,7 @@ KEY:			Used to emulate Windows ALT key combinations such as numeric keypad codes
 
 GUI:			Emulates the Windows key (LEFT)
 
-DEL / ALT / CTRL		As normal, only used to combinations
+DEL / ALT / CTRL	As normal, only used in combinations
 			(eg  'CTRL + ALT + DEL'  - logout 
 			  or 'ALT + f' - open file menu)
 
@@ -29,7 +29,7 @@ SHIFT / SHIFTR		The two SHIFT keys
 
 ALT / ALTGR		The two ALT keys
 
-F1 - F12			Function Keys
+F1 - F12		Function Keys
 
 DWN,UP,LFT,RHT		Arrow Keys
 
