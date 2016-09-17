@@ -1,0 +1,9 @@
+Python Client for the WiFi Ducky. (uses GTK GUI framework)
+
+Before running the client application remember to connect to the 'WiDucky' AP first.
+(Default Password: 'quackings')
+Then start the controller application and enter the default IP address '192.168.4.1:6673'
+and press 'OPEN'.
+
+You can enter one line script commands (SEND), 
+or LOAD full scripts and  execute them with the 'EXEC' command.
