@@ -1,7 +1,0 @@
-Windows (C#) Client for the WiFi Ducky. Visual Studio 2013
-
-Before running the client application remember to connect to the 'WiDucky' AP first.
-(Default Password: 'quackings')
-Then start the controller application and enter the default IP address '192.168.4.1'
-and press 'OPEN'.
-
