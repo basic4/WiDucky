@@ -3,5 +3,5 @@ This is the files for the non-Cactus Micro based WiDucky. A number of steps are 
 2.  Flash the 'ESP8266.ino.generic.bin' into a fresh ESP12E/F and verify using NODEMCU flasher
 3.  Load a Leonardo Arduino with the wifiDuck21.ino sketch
 4.  Wire up the devices as per the schematic
-5.  An access point should be be visible 'WiDucky', connect with 'quackings' 
-6.  Select one of the Controller apps in the project and run the test script.
+5.  An access point should then be visible 'WiDucky', connect with password 'quackings' 
+6.  Select one of the 'Controller' apps in the project and run a ducky test script.
