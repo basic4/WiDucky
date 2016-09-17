@@ -1,10 +1,8 @@
 Steps Required:
 
-1. Loading the 'Programmer.ino' into the Arduino chip on the Cactus board.
-2. Use the Cactus as a programmer itself to load up the ESP8266 generic.bin firmware into the ESP8266 chip
+1. Load the 'Programmer.ino' into the Arduino IDE and flash it into the Atmel chip on the Cactus board.
+2. Now use the Cactus as a programmer itself to load up the ESP8266 generic.bin firmware into the ESP8266 chip
    (You can also use a flasher exe to do this - google 'ESP8266 Flasher' if you wish.)
-3. Once firmware upload verified, use Arduino IDE to flash the 'Widuck_cactus4.ino' into the Arduino of the Cactus board.
-
+3. Once firmware upload verified, use Arduino IDE again to flash the 'Widuck_cactus4.ino' into the Atmel chip of the Cactus board.
 4. You should now see a wifi access point called 'WiDucky' and its password is 'quackings'
-
-5. You need one of the Controller applications to talk to the duck.
+5. You need one of the controller applications to talk to the duck. (In the 'controllers' folder)
