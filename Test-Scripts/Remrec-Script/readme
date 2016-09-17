@@ -1,0 +1,3 @@
+This command batch file allow feedback from the target windows machine to be sent. The Widucky types 'remrec4.bat dir/w, and the
+batch file executes the the dir/w command and sends the output to the widucky serial port. The output is then returned via wifi
+to the controller application and displayed.
