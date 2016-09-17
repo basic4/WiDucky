@@ -4,3 +4,7 @@ Before running the client application remember to connect to the 'WiDucky' AP fi
 (Default Password: 'quackings')
 Then start the controller application and enter the default IP address '192.168.4.1'
 and press 'OPEN'.
+
+You can enter one line script commands (SEND), 
+or LOAD full scripts to be executed with the 'EXEC' command.
+
