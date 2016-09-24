@@ -36,7 +36,7 @@ DWN,UP,LFT,RHT		Arrow Keys
 ESCAPE			The Esc Key
 
 
-An Example Script 1: Open command prompt, then notepad and type a sentense, wait then shut everything done.
+An Example Script 1: Open command prompt, then notepad and type a sentence, wait then shut everything done.
 
 
 DELAY 1000
