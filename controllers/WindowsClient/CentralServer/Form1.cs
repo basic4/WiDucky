@@ -319,6 +319,10 @@ namespace WiDuckClient
                     //left GUI (windows)
                     resultant = 131;
                     break;
+                case "MENU":
+                    //MENU Key
+                    resultant = 237;
+                    break;
                 case "GUI_R":
                     resultant = 135;
                     break;
