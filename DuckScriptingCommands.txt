@@ -16,6 +16,8 @@ COMD:			Sends a full stream of keystrokes to the target and a ENTER at the end.
 
 KEY:			Used to emulate Windows ALT key combinations such as numeric keypad codes
 			(eg. 'KEY 0124' - Windows pipe character '|')
+			
+MENU:			The Windows Menu Key
 
 GUI:			Emulates the Windows key (LEFT)
 
