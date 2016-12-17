@@ -1,5 +1,5 @@
 # WiDucky
-WiFi Enabled USB Rubber Ducky
+WiFi Enabled USB Rubber Ducky for under $20
 
 An Arduino and ESP8266 based USB Rubber Ducky fashioned on the HAK5 Rubber Ducky Module.
 
