@@ -1,3 +1,5 @@
+#WiDucky using the Cactus Micro Rev2 Board  ($14)
+
 This software turns the Cactus Micro v2 board into a HAK5 USB Rubber Ducky type device. Only this one can be contrlled remotely via WiFi
 (see https://www.tindie.com/products/aprbrother/cactus-micro-rev2-arduino-compatible-plus-esp8266/?pt=ac_prod_search)
 
