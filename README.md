@@ -8,4 +8,6 @@ This device allows keystrokes to be sent via WiFi to a target machine. The targe
 The software can be used via the Cactus Micro v2 Arduino Board, or theres a version for an Arduino connected 
 to a ESP-12E module for those who wish to build thier own hardware.
 
+Thw WiDucky is controled from the 'controller' application. There are Python, Windows and Ardroid examples in the controllers folder. So will be compatiable with Linux/Windows/MAC.
+
 Checkout the Cuctus Micro hardware here: https://www.tindie.com/products/AprilBrother/cactus-micro-rev2-arduino-compatible-plus-esp8266/
