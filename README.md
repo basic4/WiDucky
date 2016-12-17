@@ -1,7 +1,7 @@
 # WiDucky
 WiFi Enabled USB Rubber Ducky for under $20
 
-An Arduino and ESP8266 based USB Rubber Ducky fashioned on the HAK5 Rubber Ducky Module. Since the keystrokes are send over WiFi, no microSD card is needed.
+An Arduino and ESP8266 based USB Rubber Ducky fashioned on the HAK5 Rubber Ducky Module. Since the keystrokes are sent over WiFi, no microSD card is needed.
 
 This device allows keystrokes to be sent via WiFi to a target machine. The target recognises the Ducky as both a standard HID keyboard and a serial port, allows interactive commands and scripts to be executed on the target remotely.
 
